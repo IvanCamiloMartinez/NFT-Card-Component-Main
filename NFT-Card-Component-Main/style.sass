@@ -7,7 +7,7 @@ body
     width: 375px
     font-family: 'Outfit', sans-serif
     background: hsl(217, 54%, 11%)
-    margin: 20px auto
+    margin: 125px auto
     p
         font-size: 18px
 .contenedor
@@ -15,23 +15,36 @@ body
     flex-direction:  column
     background: hsl(216, 50%, 16%)
     border-radius: 20px  
-    padding: 25px  
+    padding: 25px
     .equilibrium
-        border-radius: 10px
-        font-weight: 300
+        border-radius: 15px
+        position: relavite
+    .image-cover
+        position: absolute
+        width: 325px
+        height: 325px
+        background: #00fff7
+        opacity: 0
+        border-radius: 15px
+        .icon-eye
+            position: absolute
+            top: 140px
+            left: 140px
+        &:active
+            opacity: 0.4
     h2
         color: hsl(0, 0%, 100%)
-        margin: 15px 25px 15px 25px
+        margin-left: 0
         font-weight: 600
+        &:active
+            color: hsl(178, 100%, 50%) 
     .description
         color: hsl(215, 51%, 70%)
         font-weight: 200
-        margin: 15px 25px 15px 25px
         line-height:  27px
     .price-time
         display: flex
         justify-content: space-between
-        margin: 0px 25px
         border-bottom: 0.2px  solid hsl(215, 51%, 70%)
         .price
             display: flex
@@ -56,7 +69,6 @@ body
                 margin-right:  8px
     .creator
         display: flex
-        margin: 15px 25px
         align-items: center
         .avatar
             width: 40px
@@ -69,6 +81,8 @@ body
                     font-weight: 200
                     .autor
                         color: white
+                        &:active
+                            color: hsl(178, 100%, 50%)
 
 
 

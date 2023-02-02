@@ -7,7 +7,7 @@ body {
   width: 375px;
   font-family: "Outfit", sans-serif;
   background: #0d192b;
-  margin: 20px auto; }
+  margin: 125px auto; }
   body p {
     font-size: 18px; }
 
@@ -18,21 +18,34 @@ body {
   border-radius: 20px;
   padding: 25px; }
   .contenedor .equilibrium {
-    border-radius: 10px;
-    font-weight: 300; }
+    border-radius: 15px;
+    position: relavite; }
+  .contenedor .image-cover {
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    background: #00fff7;
+    opacity: 0;
+    border-radius: 15px; }
+    .contenedor .image-cover .icon-eye {
+      position: absolute;
+      top: 140px;
+      left: 140px; }
+    .contenedor .image-cover:active {
+      opacity: 0.4; }
   .contenedor h2 {
     color: white;
-    margin: 15px 25px 15px 25px;
+    margin-left: 0;
     font-weight: 600; }
+    .contenedor h2:active {
+      color: #00fff7; }
   .contenedor .description {
     color: #8bacda;
     font-weight: 200;
-    margin: 15px 25px 15px 25px;
     line-height: 27px; }
   .contenedor .price-time {
     display: flex;
     justify-content: space-between;
-    margin: 0px 25px;
     border-bottom: 0.2px solid #8bacda; }
     .contenedor .price-time .price {
       display: flex;
@@ -57,7 +70,6 @@ body {
         margin-right: 8px; }
   .contenedor .creator {
     display: flex;
-    margin: 15px 25px;
     align-items: center; }
     .contenedor .creator .avatar {
       width: 40px;
@@ -70,5 +82,7 @@ body {
       font-weight: 200; }
       .contenedor .creator .creator-name .autor {
         color: white; }
+        .contenedor .creator .creator-name .autor:active {
+          color: #00fff7; }
 
 /*# sourceMappingURL=style.css.map */
