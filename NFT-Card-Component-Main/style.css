@@ -1,0 +1,74 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  width: 375px;
+  font-family: "Outfit", sans-serif;
+  background: #0d192b;
+  margin: 20px auto; }
+  body p {
+    font-size: 18px; }
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  background: #14253d;
+  border-radius: 20px;
+  padding: 25px; }
+  .contenedor .equilibrium {
+    border-radius: 10px;
+    font-weight: 300; }
+  .contenedor h2 {
+    color: white;
+    margin: 15px 25px 15px 25px;
+    font-weight: 600; }
+  .contenedor .description {
+    color: #8bacda;
+    font-weight: 200;
+    margin: 15px 25px 15px 25px;
+    line-height: 27px; }
+  .contenedor .price-time {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    border-bottom: 0.2px solid #8bacda; }
+    .contenedor .price-time .price {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center; }
+      .contenedor .price-time .price .icon-eth {
+        height: 20px;
+        width: 12px;
+        margin-right: 8px; }
+      .contenedor .price-time .price .value {
+        color: #00fff7; }
+    .contenedor .price-time .deadline {
+      display: flex;
+      color: #8bacda;
+      font-weight: 200;
+      justify-content: space-between;
+      align-items: center; }
+      .contenedor .price-time .deadline .icon-clock {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px; }
+  .contenedor .creator {
+    display: flex;
+    margin: 15px 25px;
+    align-items: center; }
+    .contenedor .creator .avatar {
+      width: 40px;
+      height: 40px;
+      border: 1.5px solid white;
+      border-radius: 50%;
+      margin-right: 20px; }
+    .contenedor .creator .creator-name {
+      color: #8bacda;
+      font-weight: 200; }
+      .contenedor .creator .creator-name .autor {
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */
